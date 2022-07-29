@@ -1,6 +1,8 @@
 import React from "react";
-import './PersonalInfo.css'
-import profile from '../assets/JohnProfile.png'
+import './PersonalInfo.css';
+import profile from '../assets/JohnProfile.png';
+import email from '../assets/icons/email.svg';
+import linkedIn from '../assets/icons/linkedin.svg';
 
 export default function PersonalInfo(){
     return (
@@ -10,8 +12,16 @@ export default function PersonalInfo(){
             <h3 className="job-position">Full Stack Developer</h3>
             <p className="email">abarojohncleo@gmail.com</p>
             <div className="btn">
-                <button className="email-btn"><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Email</a></button>
-                <button className="linkedin-btn"><a href="https://www.linkedin.com/in/john-cleo-abaro-7a403b196/" target="_blank">LinkedIn</a></button>
+                <button className="email-btn">
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                        <img src={email} alt="" className='btn-icon'/>
+                    </a>
+                </button>
+                <button className="linkedin-btn">
+                    <a href="https://www.linkedin.com/in/john-cleo-abaro-7a403b196/" target="_blank">
+                        <img src={linkedIn} alt="" className='btn-icon'/>
+                    </a>
+                </button>
             </div>
         </div>
     )

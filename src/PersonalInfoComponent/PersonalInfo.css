@@ -35,9 +35,9 @@
     margin: 5px;
 }
 
-/* .btn {
+.btn {
     margin: 20px;
-} */
+}
 
 .btn > button {
     width: 150px;
@@ -60,3 +60,30 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.btn-icon {
+    width: 20px;
+    margin: 5px 0px;
+    justify-content: center;
+}
+
+/* .email-btn {
+    display: flex;
+    
+}
+
+.linkedin-btn {
+    display: flex;
+} */
+
+/* .btn {
+    border: none;
+    font-size: 12px;
+    color: red;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+} */
