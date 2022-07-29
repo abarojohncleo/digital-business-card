@@ -1,0 +1,9 @@
+.App {
+    background: #1A1B21;
+    width: 410px;
+    /* height: 100vh; */
+    margin-top: 30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+

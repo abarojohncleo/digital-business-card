@@ -1,0 +1,19 @@
+.footer{
+    height: 75px;
+    background: #161619;
+}
+
+.footer-icons > li > a > img {
+    width: 30px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.footer-icons{
+    width: 380px;
+    display: flex;
+    margin: 0px 10px 5px;
+    padding: 10px 2px;
+    justify-content: center;
+    list-style: none;
+}
