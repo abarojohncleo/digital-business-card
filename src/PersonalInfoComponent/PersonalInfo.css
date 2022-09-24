@@ -6,9 +6,9 @@
 }
 
 .profile {
-    width: 410px;
+    width: 100%;
     margin: auto;
-    height: 400px;
+    height: 450px;
     display: block;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
